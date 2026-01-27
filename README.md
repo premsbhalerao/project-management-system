@@ -2,9 +2,6 @@
 
 A complete full-stack web application for managing projects and tasks, built with **Django** (backend) and **Next.js** (frontend). Developed as a Full-Stack Developer Intern assignment.
 
-## 📸 Application Preview
-![Project Dashboard](screenshot.png)
-
 ## ✨ Features Implemented
 ✅ **User Authentication System** - JWT-based authentication ready  
 ✅ **Project Management** - Create, view, and manage projects  
@@ -127,23 +124,23 @@ npm run dev
 
 ## 🎯 Assignment Requirements Checklist
 - [x] **Backend API Development** - Django REST Framework with JWT authentication
-- [x] Frontend Integration - Next.js app consuming APIs
-- [x] Authentication Handling - User registration, login, token management
-- [x] Data Modeling - Project and Task models with relationships
-- [x] Code Quality - Clean, readable, and well-structured code
-- [x] Problem Solving - Full-stack implementation from scratch
+- [x] **Frontend Integration** - Next.js app consuming APIs
+- [x] **Authentication Handling** - User registration, login, token management
+- [x] **Data Modeling** - Project and Task models with relationships
+- [x] **Code Quality** - Clean, readable, and well-structured code
+- [x] **Problem Solving** - Full-stack implementation from scratch
 
-🏗️ Architecture Design
+## 🏗️ Architecture Design
 ```
 Client (Browser) → Next.js Frontend → Django REST API → SQLite Database
                     (localhost:3000)   (localhost:8000)
 ```
-- Frontend: React components with state management
-- Backend: Django models, serializers, and views
-- Communication: REST APIs with JSON data exchange
-- Security: JWT tokens for authenticated requests
+- **Frontend**: React components with state management
+- **Backend**: Django models, serializers, and views
+- **Communication**: REST APIs with JSON data exchange
+- **Security**: JWT tokens for authenticated requests
 
-📊 Database Schema
+## 📊 Database Schema
 ```python
 # Simplified models
 class Project(models.Model):
@@ -160,16 +157,16 @@ class Task(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 ```
 
-🖼️ UI/UX Features
-- Responsive Design: Works on mobile, tablet, and desktop
-- Dark/Light Theme: Eye-friendly color schemes
-- Loading States: Skeleton loaders during API calls
-- Error Handling: User-friendly error messages
-- Interactive Elements: Hover effects, transitions, animations
+## 🖼️ UI/UX Features
+- **Responsive Design**: Works on mobile, tablet, and desktop
+- **Dark/Light Theme**: Eye-friendly color schemes
+- **Loading States**: Skeleton loaders during API calls
+- **Error Handling**: User-friendly error messages
+- **Interactive Elements**: Hover effects, transitions, animations
 
-🔧 Development & Deployment
+## 🔧 Development & Deployment
 
-Development
+### Development
 ```bash
 # Backend development
 python manage.py runserver
@@ -182,13 +179,13 @@ python manage.py test
 npm run test
 ```
 
-Production Deployment
-1. Backend: Deploy on Railway/Render/Heroku with PostgreSQL
-2. Frontend: Deploy on Vercel/Netlify
-3. Environment Variables: Configure database and secret keys
-4. CORS: Update allowed origins for production domain
+### Production Deployment
+1. **Backend**: Deploy on Railway/Render/Heroku with PostgreSQL
+2. **Frontend**: Deploy on Vercel/Netlify
+3. **Environment Variables**: Configure database and secret keys
+4. **CORS**: Update allowed origins for production domain
 
-🐛 Troubleshooting
+## 🐛 Troubleshooting
 | Issue | Solution |
 |-------|----------|
 | Port 8000 already in use | Use `python manage.py runserver 8001` |
@@ -197,7 +194,7 @@ Production Deployment
 | Module not found | Run `pip install -r requirements.txt` and `npm install` |
 | Database errors | Run `python manage.py migrate` |
 
-📈 Future Enhancements
+## 📈 Future Enhancements
 - [ ] Role-based access control (Admin/User roles)
 - [ ] File attachments for tasks
 - [ ] Email notifications
@@ -206,24 +203,24 @@ Production Deployment
 - [ ] Export data as CSV/PDF
 - [ ] Mobile app with React Native
 
-👨‍💻 Developer
-Prem Bhalerao  
+## 👨‍💻 Developer
+**Prem Bhalerao**  
 Full-Stack Developer  
-📧 sb.prem17@gmail.com  
-🔗 [GitHub Profile](https://github.com/prembhalerao)  
+📧 prembhalerao@example.com  
+🔗 [GitHub Profile](https://github.com/premsbhalerao)  
 💼 [LinkedIn Profile](https://linkedin.com/in/premsbhalerao)
 
-📄 License
+## 📄 License
 This project is developed for educational purposes as part of a Full-Stack Developer assignment.
 
-🙏 Acknowledgments
+## 🙏 Acknowledgments
 - Django and Next.js documentation teams
 - Assignment evaluators for the opportunity
 - Open-source community for amazing tools and libraries
 
 ---
 
-🎯 Quick Start Summary
+## 🎯 Quick Start Summary
 ```bash
 # Backend
 cd project-management-system
@@ -235,4 +232,7 @@ cd frontend
 npm install
 npm run dev
 
-Happy Coding! 🚀
+# Access at http://localhost:3000
+```
+
+**Happy Coding! 🚀**
