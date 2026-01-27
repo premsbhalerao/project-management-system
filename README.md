@@ -205,7 +205,6 @@ npm run test
 
 ## 👨‍💻 Developer
 **Prem Bhalerao**  
-Full-Stack Developer  
 📧 prembhalerao@example.com  
 🔗 [GitHub Profile](https://github.com/premsbhalerao)  
 💼 [LinkedIn Profile](https://linkedin.com/in/premsbhalerao)
