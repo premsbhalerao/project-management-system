@@ -95,6 +95,10 @@ npm run dev
 | POST | `/api/register/` | User registration | No |
 | POST | `/api/login/` | User login (JWT) | No |
 
+## 📸 Screenshot
+<img width="1920" height="1297" alt="screenshot" src="https://github.com/user-attachments/assets/a00173d3-4703-4c0b-ac7b-b4749173c969" />
+
+
 ## 📋 Core Functionalities
 
 ### 1. Authentication & Authorization
