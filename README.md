@@ -209,7 +209,7 @@ npm run test
 
 ## 👨‍💻 Developer
 **Prem Bhalerao**  
-📧 prembhalerao@example.com  
+📧  sb.prem17@gmail.com  
 🔗 [GitHub Profile](https://github.com/premsbhalerao)  
 💼 [LinkedIn Profile](https://linkedin.com/in/premsbhalerao)
 
